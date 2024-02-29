@@ -1,0 +1,46 @@
+.app {
+  background-color: #282c34;
+
+}
+
+.bodyPage {
+  display: flex;
+  flex-direction: column;
+  background-color: #282c34;
+  min-height: 100vw;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.bannerPage {
+  color: black;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.botonPage {
+  color: black;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 60%;
+  padding-bottom: 2%;
+}
+
+.tablePage {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
